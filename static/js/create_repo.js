@@ -19,6 +19,6 @@ document.getElementById('createRepoForm').addEventListener('submit', async (e) =
     }
   } catch (error) {
     console.error('Error:', error);
-    document.getElementById('message').textContent = '创建仓库失败，请稍后重试';
+    document.getElementById('message').textContent = '创建仓库失败';
   }
 });
