@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div class="header">
+        <button id="logoutBtn">登出</button>
+        <span id="usernameDisplay"></span>
+    </div>
+    <div class="main-content">
+        <h1>欢迎使用 gith</h1>
+        <div class="buttons">
+            <button id="viewRepoBtn">查看仓库</button>
+            <button id="createRepoBtn">新建仓库</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

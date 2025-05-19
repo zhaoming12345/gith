@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>查看仓库</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/view_repo.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>仓库列表</h2>
+        <div id="repoList" class="repo-list"></div>
+        <div class="back-link">
+            <a href="/">返回首页</a>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/view_repo.js') }}"></script>
+</body>
+</html>

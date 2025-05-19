@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录页面</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>用户登录</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="用户名" required>
+            <button type="submit">登录</button>
+        </form>
+        <div class="switch-link">
+            <a href="/register">没有账号？立即注册</a>
+        </div>
+        <div id="loginMessage"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>

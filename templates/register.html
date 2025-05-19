@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册页面</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>用户注册</h2>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="用户名" required>
+            <button type="submit">注册</button>
+        </form>
+        <div class="switch-link">
+            <a href="/login">已有账号？立即登录</a>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/register.js') }}"></script>
+</body>
+</html>

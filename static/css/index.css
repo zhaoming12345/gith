@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+#logoutBtn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #e74c3c;
+}
+
+#logoutBtn:hover {
+    background-color: #c0392b;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>新建仓库</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/create_repo.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>新建仓库</h2>
+        <form id="createRepoForm">
+            <input type="text" id="repoName" placeholder="仓库名" required>
+            <textarea id="repoDescription" placeholder="仓库介绍" required></textarea>
+            <button type="submit">创建仓库</button>
+        </form>
+        <div class="back-link">
+            <a href="/">返回首页</a>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/create_repo.js') }}"></script>
+</body>
+</html>
